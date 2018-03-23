@@ -1,0 +1,40 @@
+/* ---------- Testimonials  Section ---------- */
+
+.section--testimonials {
+
+  .column {
+    margin-bottom: 50px;
+
+    .column__image {
+      border-radius: 50%;
+      width: 160px;
+      height: 160px;
+      margin-bottom: 30px;
+    }
+
+    .column__title {
+      margin-bottom: 20px;
+    }
+
+    .column__comment {
+      margin-bottom: 30px;
+    }
+
+    .column__icon {
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+
+    .column__icon--golden {
+      color: #f2bc3b;
+    }
+
+    .column__name {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+  }
+
+}

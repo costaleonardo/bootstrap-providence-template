@@ -1,0 +1,20 @@
+/* ---------- Colors ---------- */
+
+$white:       #fff;
+$black:       #000;
+$gray-dark:   #333;
+$gray-medium: #8c8f94;
+$gray-light:  #f4f4f5;
+$blue:        #267df4;
+$green:       #6fc754;
+
+/* ---------- Fonts ---------- */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Light.ttf') format('truetype'),
+       url('../fonts/roboto/Roboto-Regular.ttf') format('truetype'),
+       url('../fonts/roboto/Roboto-Medium.ttf') format('truetype'),
+       url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+
+}

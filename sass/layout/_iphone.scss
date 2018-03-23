@@ -1,0 +1,44 @@
+/* ---------- Iphone Section ---------- */
+
+.section--iphone {
+
+  .column {
+    margin-bottom: 50px;
+
+    .column__title {
+      margin-bottom: 50px;
+    }
+
+    .column__paragraph {
+      margin-bottom: 30px;
+    }
+
+    .column__paragraph-two {
+      margin-bottom: 60px;
+    }
+
+    .button {
+      display: block;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .section--iphone {
+
+    .column {
+
+      .button {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+        display: inline;
+        width: 50%;
+      }
+
+    }
+  }
+}

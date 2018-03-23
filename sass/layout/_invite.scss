@@ -1,0 +1,72 @@
+/* ---------- Invite Section ---------- */
+
+.section--invite {
+  background-color: $gray-light;
+
+  .content {
+    .content__heading {
+      text-transform: uppercase;
+      color: $gray-medium;
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+
+    .content__title {
+      margin-bottom: 70px;
+    }
+
+    .content__paragraph {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .content__image {
+      width: 140px;
+      height: 40px;
+    }
+  }
+
+  .form {
+    .form__input {
+      background-color: transparent;
+      border-radius: 30px;
+      border: 1px solid rgba(38, 39, 45, 0.2);
+      padding: 12px;
+      margin-bottom: 20px;
+      width: 95%;
+    }
+
+    .button--form {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .section--invite {
+    .form {
+      .form__input {
+        width: 50%;
+        margin-right: 5px;
+      }
+      .button--form {
+        width: 30%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .section--invite {
+    .form {
+      .form__input {
+        width: 50%;
+      }
+      .button--form {
+        width: 22%;
+      }
+    }
+  }
+}

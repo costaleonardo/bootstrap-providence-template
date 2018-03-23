@@ -1,0 +1,46 @@
+/* ---------- Navigation ---------- */
+
+.navbar {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+
+  .nav-link-app {
+    background-color: $blue;
+    border: 1px solid $blue;
+    border-radius: 30px;
+    color: $white !important;
+    font-weight: 700;
+    width: 35%;
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $gray-dark;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    .nav-link-app {
+      width: 13%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    height: 80px;
+
+    .nav-link-app {
+      width: 100%;
+    }
+
+    .navbar-nav {
+      margin-right: 35px;
+    }
+  }
+}

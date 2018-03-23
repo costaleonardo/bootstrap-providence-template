@@ -1,0 +1,16 @@
+/* ---------- Interface Section ---------- */
+
+.section--interface {
+  background-color: #f4f4f5;
+
+  .column {
+    margin-bottom: 45px;
+
+    .column__image-one,
+    .column__image-three {
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+    }
+
+  }
+
+}

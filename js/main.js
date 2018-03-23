@@ -1,0 +1,3 @@
+/* ---------- Aniamtions ---------- */
+
+new WOW().init();

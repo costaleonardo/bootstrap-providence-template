@@ -1,0 +1,51 @@
+/* ---------- Header Section ---------- */
+
+.section--header {
+  background-image: url('../img/banner_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  .content {
+    padding-top: 30%;
+
+    .content__title {
+      margin-bottom: 15px;
+    }
+
+    .content__paragraph {
+      font-size: 20px;
+      color: $gray-dark;
+      margin-bottom: 20px;
+    }
+
+    .content__image {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .section--header {
+    .content {
+      padding-top: 20%;
+
+      .content__title {
+        margin-bottom: 30px;
+      }
+
+      .content__paragraph {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .section--header {
+    .content {
+      padding-top: 20%;
+    }
+  }
+}
